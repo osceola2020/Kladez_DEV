@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Кладезь Главная</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Кладезь</a>
+            <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+            <!-- Navbar Search-->
+            <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+            <!-- Navbar-->
+            <ul class="navbar-nav ml-auto ml-md-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <a class="dropdown-item" href="#">Activity Log</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="login.html">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+
+                            <div class="sb-sidenav-menu-heading">Категории</div>
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAvto" aria-expanded="false" aria-controls="collapseAvto">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Авто и Транспорт
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseAvto" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <!--sb-sidenav-menu-nested -->
+                                <nav class="sb-sidenav-menu-nested">
+                                    <a class="nav-link" href="#">Авто Запчасти</a>
+                                    <a class="nav-link" href="#">Автомобили</a>
+                                    <a class="nav-link" href="#">Водный Транспорт</a>
+                                    <a class="nav-link" href="#">Грузовики</a>
+                                    <a class="nav-link" href="#">Колеса</a>
+                                    <a class="nav-link" href="#">Мотоциклы</a>
+                                    <a class="nav-link" href="#">Прицепы</a>
+                                    <a class="nav-link" href="#">Другое в Авто и Транспорте</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBiznes" aria-expanded="false" aria-controls="collapseBiznes">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Бизнес и Офис
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseBiznes" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Аккессуары  для уборки в офисе</a>
+                                    <a class="nav-link" href="#">Канцелярские товары</a>
+                                    <a class="nav-link" href="#">Оргтехника</a>
+                                    <a class="nav-link" href="#">Другое Для Бизнеса и Офиса</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBytovaya" aria-expanded="false" aria-controls="collapseBytovaya">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Бытовая Электроника
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseBytovaya" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Видео игры</a>
+                                    <a class="nav-link" href="#">Компьютеры</a>
+                                    <a class="nav-link" href="#">Ноутбуки</a>
+                                    <a class="nav-link" href="#">Планшеты</a>
+                                    <a class="nav-link" href="#">Телефоны</a>
+                                    <a class="nav-link" href="#">Фототехника</a>
+                                    <a class="nav-link" href="#">Другая бытовая электроника</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseDomIDacha" aria-expanded="false" aria-controls="collapseDomIDacha">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Дом и Дача
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseDomIDacha" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Аккессуары  для Уборки Дома</a>
+                                    <a class="nav-link" href="#">Бытовая Техника</a>
+                                    <a class="nav-link" href="#">Бытовая Химия</a>
+                                    <a class="nav-link" href="#">Ванная Комната и Баня</a>
+                                    <a class="nav-link" href="#">Домашние Животные</a>
+                                    <a class="nav-link" href="#">Инструменты</a>
+                                    <a class="nav-link" href="#">Мебель и Интерьер</a>
+                                    <a class="nav-link" href="#">Постель</a>
+                                    <a class="nav-link" href="#">Посуда и всё для Кухни</a>
+                                    <a class="nav-link" href="#">Пчеловодство</a>
+                                    <a class="nav-link" href="#">Растения</a>
+                                    <a class="nav-link" href="#">Сад и Огород</a>
+                                    <a class="nav-link" href="#">Другое для Дома и Дачи</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseZhivotnye" aria-expanded="false" aria-controls="collapseZhivotnye">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Животные
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseZhivotnye" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Кошки</a>
+                                    <a class="nav-link" href="#">Птицы</a>
+                                    <a class="nav-link" href="#">Рыбы и Аквариум</a>
+                                    <a class="nav-link" href="#">Собаки</a>
+                                    <a class="nav-link" href="#">Другие Животные</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseIsskustvo" aria-expanded="false" aria-controls="collapseIsskustvo">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Искусство
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseIsskustvo" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Антиквариат</a>
+                                    <a class="nav-link" href="#">Книги</a>
+                                    <a class="nav-link" href="#">Коллекционные артефакты</a>
+                                    <a class="nav-link" href="#">Музыкальные Инструменты</a>
+                                    <a class="nav-link" href="#">Ремесла</a>
+                                    <a class="nav-link" href="#">Фильмы</a>
+                                    <a class="nav-link" href="#">Другое в Произведениях Искусства</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLichnoe" aria-expanded="false" aria-controls="collapseLichnoe">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Личное, Мода и Аксессуары
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLichnoe" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Детская Одежда и Обувь</a>
+                                    <a class="nav-link" href="#">Женская Одежда и Обувь</a>
+                                    <a class="nav-link" href="#">Здоровье и Красота</a>
+                                    <a class="nav-link" href="#">Игрушки и Игры</a>
+                                    <a class="nav-link" href="#">Мужская одежда и Обувь</a>
+                                    <a class="nav-link" href="#">Оптика</a>
+                                    <a class="nav-link" href="#">Ритуальные Товары</a>
+                                    <a class="nav-link" href="#">Свадебное</a>
+                                    <a class="nav-link" href="#">Сумки</a>
+                                    <a class="nav-link" href="#">Украшения и Часы</a>
+                                    <a class="nav-link" href="#">Другое в Личном, Моде и Аксессуарах</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseNedvizhuha" aria-expanded="false" aria-controls="collapseNedvizhuha">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Недвижимость
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseNedvizhuha" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Дачи и Коттеджи</a>
+                                    <a class="nav-link" href="#">Дома</a>
+                                    <a class="nav-link" href="#">Земельные участки</a>
+                                    <a class="nav-link" href="#">Ищу жильё</a>
+                                    <a class="nav-link" href="#">Квартиры</a>
+                                    <a class="nav-link" href="#">Комнаты</a>
+                                    <a class="nav-link" href="#">Офис в аренду</a>
+                                    <a class="nav-link" href="#">Парковка и гараж</a>
+                                    <a class="nav-link" href="#">Другая Недвижимость</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseProdukty" aria-expanded="false" aria-controls="collapseProdukty">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Продукты Питания
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseProdukty" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Вкусовые продукты</a>
+                                    <a class="nav-link" href="#">Животные жиры</a>
+                                    <a class="nav-link" href="#">Зерновые и мучные продукты</a>
+                                    <a class="nav-link" href="#">Кондитерские продукты</a>
+                                    <a class="nav-link" href="#">Мёд</a>
+                                    <a class="nav-link" href="#">Молоко</a>
+                                    <a class="nav-link" href="#">Мясо</a>
+                                    <a class="nav-link" href="#">Натуральные напитки</a>
+                                    <a class="nav-link" href="#">Овощи</a>
+                                    <a class="nav-link" href="#">Растительные продукты</a>
+                                    <a class="nav-link" href="#">Рыба</a>
+                                    <a class="nav-link" href="#">Сахар</a>
+                                    <a class="nav-link" href="#">Фрукты</a>
+                                    <a class="nav-link" href="#">Яичные продукты</a>
+                                    <a class="nav-link" href="#">Другие Продукты Питания</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRemont" aria-expanded="false" aria-controls="collapseRemont">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Ремонт и Строительство
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseRemont" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Бассейны и сауны</a>
+                                    <a class="nav-link" href="#">Бетон</a>
+                                    <a class="nav-link" href="#">Ванны и душевые кабины</a>
+                                    <a class="nav-link" href="#">Двери</a>
+                                    <a class="nav-link" href="#">ДСП</a>
+                                    <a class="nav-link" href="#">Инструменты</a>
+                                    <a class="nav-link" href="#">Ламинат</a>
+                                    <a class="nav-link" href="#">Обои</a>
+                                    <a class="nav-link" href="#">Окна</a>
+                                    <a class="nav-link" href="#">Пенопласт</a>
+                                    <a class="nav-link" href="#">Пиломатериалы</a>
+                                    <a class="nav-link" href="#">Плитка</a>
+                                    <a class="nav-link" href="#">Раковины</a>
+                                    <a class="nav-link" href="#">Смесители</a>
+                                    <a class="nav-link" href="#">Теплицы</a>
+                                    <a class="nav-link" href="#">Унитазы</a>
+                                    <a class="nav-link" href="#">Утеплитель</a>
+                                    <a class="nav-link" href="#">Фанера</a>
+                                    <a class="nav-link" href="#">Другой ресурс Строительства и Ремонта</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSport" aria-expanded="false" aria-controls="collapseSport">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Спорт, Хобби и Отдых
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseSport" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Билеты и Путешествия</a>
+                                    <a class="nav-link" href="#">Велосипеды</a>
+                                    <a class="nav-link" href="#">Книги и Журналы</a>
+                                    <a class="nav-link" href="#">Коллекционирование</a>
+                                    <a class="nav-link" href="#">Музыкальные Инструменты</a>
+                                    <a class="nav-link" href="#">Охота и Рыбалка</a>
+                                    <a class="nav-link" href="#">Спортивные Снаряды и Аксессуары</a>
+                                    <a class="nav-link" href="#">Другое для Спорта, Хобби и Отдыха</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSyrie" aria-expanded="false" aria-controls="collapseSyrie">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Сырьё и Полезные Ископаемые
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseSyrie" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Нефтепродукты и газ</a>
+                                    <a class="nav-link" href="#">Угольное топливо</a>
+                                    <a class="nav-link" href="#">Другие Сырьё и Полезные ископаемые</a>
+                                </nav>
+                            </div>
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTrud" aria-expanded="false" aria-controls="collapseTrud">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Труд и Вакансии
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <!-- nav-link collapsed -->
+                            <div class="collapse" id="collapseTrud" data-toggle="collapse" data-target="#collapseTrudBiznes" aria-expanded="false" aria-controls="collapseTrudBiznes"
+                                 aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Бизнес, Экономика, Финансы</a>
+                                </nav>
+                            </div>
+                            
+                            <div class="collapse" id="collapseTrudBiznes" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested02 nav">
+                                    <a class="nav-link" href="#">Аудитор</a>
+                                    <a class="nav-link" href="#">Брокер</a>
+                                    <a class="nav-link" href="#">Бухгалтер</a>
+                                    <a class="nav-link" href="#">Кадровые агенства</a>
+                                    <a class="nav-link" href="#">Консалтинг</a>
+                                    <a class="nav-link" href="#">Кредитование</a>
+                                    <a class="nav-link" href="#">Предприниматель</a>
+                                    <a class="nav-link" href="#">Продвижение Бизнеса</a>
+                                    <a class="nav-link" href="#">Реклама</a>
+                                    <a class="nav-link" href="#">Сметчик</a>
+                                    <a class="nav-link" href="#">Страховой агент</a>
+                                    <a class="nav-link" href="#">Услуги лизинга</a>
+                                    <a class="nav-link" href="#">Финансовые услуги</a>
+                                    <a class="nav-link" href="#">Экономист</a>
+                                    <a class="nav-link" href="#">Другие профессии бизнеса, экономики, финансов</a>
+                                </nav>
+                            </div>
+                            
+                            <div class="collapse" id="collapseTrud" data-toggle="collapse" data-target="#collapseTrudXhurnalistika" aria-expanded="false" aria-controls="collapseTrudXhurnalistika"
+                                 aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Журналистика и книгопечатание</a>
+                                </nav>
+                            </div>
+                            
+                            <div class="collapse" id="collapseTrudXhurnalistika" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested02 nav">
+                                    <a class="nav-link" href="#">Веб-Блоггер</a>
+                                    <a class="nav-link" href="#">Верстальщик</a>
+                                    <a class="nav-link" href="#">Видео-блоггер</a>
+                                    <a class="nav-link" href="#">Выпускающий редактор</a>
+                                    <a class="nav-link" href="#">Журналист</a>
+                                    <a class="nav-link" href="#">Издатель</a>
+                                    <a class="nav-link" href="#">Корректор</a>
+                                    <a class="nav-link" href="#">Переплётчик</a>
+                                    <a class="nav-link" href="#">Печатник (профессия)</a>
+                                    <a class="nav-link" href="#">Редактор (профессия)</a>
+                                    <a class="nav-link" href="#">Типограф (профессия)</a>
+                                    <a class="nav-link" href="#">Другая профессия в Журналистике и Книгопечатании</a>
+                                </nav>
+                            </div>
+                            
+                            <div class="collapse" id="collapseTrud" data-toggle="collapse" data-target="#collapseTrudZdorovie" aria-expanded="false" aria-controls="collapseTrudZdorovie"
+                                 aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Здоровье и Красота</a>
+                                </nav>
+                            </div>
+                            
+                            <div class="collapse" id="collapseTrudZdorovie" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested02 nav">
+                                    <a class="nav-link" href="#">Врач</a>
+                                    <a class="nav-link" href="#">Косметолог</a>
+                                    <a class="nav-link" href="#">Мануальная терапия</a>
+                                    <a class="nav-link" href="#">Мануальный терапевт</a>
+                                    <a class="nav-link" href="#">Массажист</a>
+                                    <a class="nav-link" href="#">Мастер Маникюра</a>
+                                    <a class="nav-link" href="#">Мастер Педикюра</a>
+                                    <a class="nav-link" href="#">Медицинская сестра</a>
+                                    <a class="nav-link" href="#">Народное целительство и натуротерапия</a>
+                                    <a class="nav-link" href="#">Педиатр</a>
+                                    <a class="nav-link" href="#">Психотерапевт</a>
+                                    <a class="nav-link" href="#">Стоматолог</a>
+                                    <a class="nav-link" href="#">Терапевт</a>
+                                    <a class="nav-link" href="#">Травматолог</a>
+                                    <a class="nav-link" href="#">Травничество</a>
+                                    <a class="nav-link" href="#">Фармацевт</a>
+                                    <a class="nav-link" href="#">Физиотерапевт</a>
+                                    <a class="nav-link" href="#">Флеболог</a>
+                                    <a class="nav-link" href="#">Другая профессия в Здоровье и Красоте</a>
+                                </nav>
+                            </div>
+                            
+                            
+                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                                Страницы
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                        Логин
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="login.html">Логин</a>
+                                            <a class="nav-link" href="register.html">Регистрация</a>
+                                            <a class="nav-link" href="password.html">Восстановить пароль</a>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                        Error
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="401.html">401 Page</a>
+                                            <a class="nav-link" href="404.html">404 Page</a>
+                                            <a class="nav-link" href="500.html">500 Page</a>
+                                        </nav>
+                                    </div>
+                                </nav>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sb-sidenav-footer">
+                        <div class="small">Logged in as:</div>
+                        Start Bootstrap
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid">
+                        <h1 class="mt-4">Sidenav Light</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                            <li class="breadcrumb-item active">Sidenav Light</li>
+                        </ol>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                This page is an example of using the light side navigation option. By appending the
+                                <code>.sb-sidenav-light</code>
+                                class to the
+                                <code>.sb-sidenav</code>
+                                class, the side navigation will take on a light color scheme. The
+                                <code>.sb-sidenav-dark</code>
+                                is also available for a darker option.
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer class="py-4 bg-light mt-auto">
+                    <div class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-between small">
+                            <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                            <div>
+                                <a href="#">Privacy Policy</a>
+                                &middot;
+                                <a href="#">Terms &amp; Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
