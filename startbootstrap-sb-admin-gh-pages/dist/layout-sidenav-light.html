@@ -12,12 +12,12 @@
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Кладезь</a>
+            <a class="navbar-brand" href="#">Кладезь</a>
             <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
                 <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2" />
+                    <input class="form-control" type="text" placeholder="Введите поисковое слово..." aria-label="Search" aria-describedby="basic-addon2" />
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
                     </div>
@@ -28,10 +28,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="#">Settings</a>
-                        <a class="dropdown-item" href="#">Activity Log</a>
+                        <a class="dropdown-item" href="#">Настройки</a>
+                        <a class="dropdown-item" href="#">Запись предыдущих шагов</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="login.html">Logout</a>
+                        <a class="dropdown-item" href="login.html">Выход</a>
                     </div>
                 </li>
             </ul>
@@ -272,74 +272,70 @@
                                     <a class="nav-link" href="#">Другие Сырьё и Полезные ископаемые</a>
                                 </nav>
                             </div>
+        
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePagesTrud" aria-expanded="false" aria-controls="collapsePagesTrud">
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Труд и Вакансии
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
                             
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTrud" aria-expanded="false" aria-controls="collapseTrud">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                Труд и Вакансии
+                <div class="collapse" id="collapsePagesTrud" aria-labelledby="headingThree" data-parent="#sidenavAccordion">
+                    <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                        
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseBiznes" aria-expanded="false" aria-controls="pagesCollapseBiznes">
+                            Бизнес, Экономика, Финансы
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <!-- nav-link collapsed -->
-                            <div class="collapse" id="collapseTrud" data-toggle="collapse" data-target="#collapseTrudBiznes" aria-expanded="false" aria-controls="collapseTrudBiznes"
-                                 aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">Бизнес, Экономика, Финансы</a>
-                                </nav>
-                            </div>
-                            
-                            <div class="collapse" id="collapseTrudBiznes" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested02 nav">
-                                    <a class="nav-link" href="#">Аудитор</a>
-                                    <a class="nav-link" href="#">Брокер</a>
-                                    <a class="nav-link" href="#">Бухгалтер</a>
-                                    <a class="nav-link" href="#">Кадровые агенства</a>
-                                    <a class="nav-link" href="#">Консалтинг</a>
-                                    <a class="nav-link" href="#">Кредитование</a>
-                                    <a class="nav-link" href="#">Предприниматель</a>
-                                    <a class="nav-link" href="#">Продвижение Бизнеса</a>
-                                    <a class="nav-link" href="#">Реклама</a>
-                                    <a class="nav-link" href="#">Сметчик</a>
-                                    <a class="nav-link" href="#">Страховой агент</a>
-                                    <a class="nav-link" href="#">Услуги лизинга</a>
-                                    <a class="nav-link" href="#">Финансовые услуги</a>
-                                    <a class="nav-link" href="#">Экономист</a>
-                                    <a class="nav-link" href="#">Другие профессии бизнеса, экономики, финансов</a>
-                                </nav>
-                            </div>
-                            
-                            <div class="collapse" id="collapseTrud" data-toggle="collapse" data-target="#collapseTrudXhurnalistika" aria-expanded="false" aria-controls="collapseTrudXhurnalistika"
-                                 aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">Журналистика и книгопечатание</a>
-                                </nav>
-                            </div>
-                            
-                            <div class="collapse" id="collapseTrudXhurnalistika" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested02 nav">
-                                    <a class="nav-link" href="#">Веб-Блоггер</a>
-                                    <a class="nav-link" href="#">Верстальщик</a>
-                                    <a class="nav-link" href="#">Видео-блоггер</a>
-                                    <a class="nav-link" href="#">Выпускающий редактор</a>
-                                    <a class="nav-link" href="#">Журналист</a>
-                                    <a class="nav-link" href="#">Издатель</a>
-                                    <a class="nav-link" href="#">Корректор</a>
-                                    <a class="nav-link" href="#">Переплётчик</a>
-                                    <a class="nav-link" href="#">Печатник (профессия)</a>
-                                    <a class="nav-link" href="#">Редактор (профессия)</a>
-                                    <a class="nav-link" href="#">Типограф (профессия)</a>
-                                    <a class="nav-link" href="#">Другая профессия в Журналистике и Книгопечатании</a>
-                                </nav>
-                            </div>
-                            
-                            <div class="collapse" id="collapseTrud" data-toggle="collapse" data-target="#collapseTrudZdorovie" aria-expanded="false" aria-controls="collapseTrudZdorovie"
-                                 aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">Здоровье и Красота</a>
-                                </nav>
-                            </div>
-                            
-                            <div class="collapse" id="collapseTrudZdorovie" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested02 nav">
-                                    <a class="nav-link" href="#">Врач</a>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseBiznes" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="#">Аудитор</a>
+                                        <a class="nav-link" href="#">Брокер</a>
+                                        <a class="nav-link" href="#">Бухгалтер</a>
+                                        <a class="nav-link" href="#">Кадровые агенства</a>
+                                        <a class="nav-link" href="#">Консалтинг</a>
+                                        <a class="nav-link" href="#">Кредитование</a>
+                                        <a class="nav-link" href="#">Предприниматель</a>
+                                        <a class="nav-link" href="#">Продвижение Бизнеса</a>
+                                        <a class="nav-link" href="#">Реклама</a>
+                                        <a class="nav-link" href="#">Сметчик</a>
+                                        <a class="nav-link" href="#">Страховой агент</a>
+                                        <a class="nav-link" href="#">Услуги лизинга</a>
+                                        <a class="nav-link" href="#">Финансовые услуги</a>
+                                        <a class="nav-link" href="#">Экономист</a>
+                                        <a class="nav-link" href="#">Другие профессии бизнеса, экономики, финансов</a>
+                                        </nav>
+                                    </div>
+                        
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseZhurnalistika" aria-expanded="false" aria-controls="pagesCollapseZhurnalistika">
+                            Журналистика и книгопечатание
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseZhurnalistika" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Веб-Блоггер</a>
+                                            <a class="nav-link" href="#">Верстальщик</a>
+                                            <a class="nav-link" href="#">Видео-блоггер</a>
+                                            <a class="nav-link" href="#">Выпускающий редактор</a>
+                                            <a class="nav-link" href="#">Журналист</a>
+                                            <a class="nav-link" href="#">Издатель</a>
+                                            <a class="nav-link" href="#">Корректор</a>
+                                            <a class="nav-link" href="#">Переплётчик</a>
+                                            <a class="nav-link" href="#">Печатник (профессия)</a>
+                                            <a class="nav-link" href="#">Редактор (профессия)</a>
+                                            <a class="nav-link" href="#">Типограф (профессия)</a>
+                                            <a class="nav-link" href="#">Другая профессия в Журналистике и Книгопечатании</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseZdorovie" aria-expanded="false" aria-controls="pagesCollapseZdorovie">
+                            Здоровье и Красота
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseZdorovie" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Врач</a>
                                     <a class="nav-link" href="#">Косметолог</a>
                                     <a class="nav-link" href="#">Мануальная терапия</a>
                                     <a class="nav-link" href="#">Мануальный терапевт</a>
@@ -358,32 +354,457 @@
                                     <a class="nav-link" href="#">Физиотерапевт</a>
                                     <a class="nav-link" href="#">Флеболог</a>
                                     <a class="nav-link" href="#">Другая профессия в Здоровье и Красоте</a>
-                                </nav>
-                            </div>
-                            
-                            
-                            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
-                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                                Страницы
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseIsskustvo" aria-expanded="false" aria-controls="pagesCollapseIsskustvo">
+                            Изобразительное и прикладные виды искусств
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        Логин
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseIsskustvo" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Изготовитель художественных изделий из дерева</a>
+                                    <a class="nav-link" href="#">Изготовитель художественных изделий из керамики</a>
+                                    <a class="nav-link" href="#">Изготовитель художественных изделий из металла</a>
+                                    <a class="nav-link" href="#">Изготовитель художественных изделий из тканей с художественной росписью</a>
+                                    <a class="nav-link" href="#">Инкрустатор</a>
+                                    <a class="nav-link" href="#">Исполнитель художественно-оформительских работ</a>
+                                    <a class="nav-link" href="#">Киномеханик</a>
+                                    <a class="nav-link" href="#">Лепщик-модельщик архитектурных деталей</a>
+                                    <a class="nav-link" href="#">Мастер народных художественных промыслов</a>
+                                    <a class="nav-link" href="#">Резчик</a>
+                                    <a class="nav-link" href="#">Реставратор памятников каменного и деревянного зодчества</a>
+                                    <a class="nav-link" href="#">Реставратор строительный</a>
+                                    <a class="nav-link" href="#">Реставратор тканей, гобеленов и ковров</a>
+                                    <a class="nav-link" href="#">Фотограф</a>
+                                    <a class="nav-link" href="#">Художник декоративной росписи по металлу</a>
+                                    <a class="nav-link" href="#">Художник миниатюрной живописи</a>
+                                    <a class="nav-link" href="#">Художник росписи по дереву</a>
+                                    <a class="nav-link" href="#">Художник росписи по ткани</a>
+                                    <a class="nav-link" href="#">Художник росписи по эмали</a>
+                                    <a class="nav-link" href="#">Экранные искусства</a>
+                                    <a class="nav-link" href="#">Ювелир</a>
+                                    <a class="nav-link" href="#">Другие профессии прикладных видов искусств</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseKompyuter" aria-expanded="false" aria-controls="pagesCollapseKompyuter">
+                            Компьютер, Информатика, Медиа и Связь
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseKompyuter" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Администратор базы данных</a>
+                                    <a class="nav-link" href="#">Блоггер</a>
+                                    <a class="nav-link" href="#">Веб-интегратор</a>
+                                    <a class="nav-link" href="#">Веб-мастер</a>
+                                    <a class="nav-link" href="#">Веб-программист</a>
+                                    <a class="nav-link" href="#">Влоггер</a>
+                                    <a class="nav-link" href="#">Диктор</a>
+                                    <a class="nav-link" href="#">Контент-менеджер</a>
+                                    <a class="nav-link" href="#">Копирайтер</a>
+                                    <a class="nav-link" href="#">Машинистка</a>
+                                    <a class="nav-link" href="#">Монтажник связи</a>
+                                    <a class="nav-link" href="#">Наладчик аппаратного и программного обеспечения</a>
+                                    <a class="nav-link" href="#">Наладчик компьютерных сетей</a>
+                                    <a class="nav-link" href="#">Оператор ПК</a>
+                                    <a class="nav-link" href="#">Переводчик</a>
+                                    <a class="nav-link" href="#">Программист</a>
+                                    <a class="nav-link" href="#">Робототехник</a>
+                                    <a class="nav-link" href="#">Системный администратор</a>
+                                    <a class="nav-link" href="#">Телевидение, кино  и видео</a>
+                                    <a class="nav-link" href="#">Тележурналист</a>
+                                    <a class="nav-link" href="#">Тестировщик</a>
+                                    <a class="nav-link" href="#">Другие профессии компьютера, информатики, медиа и связи</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseMeropriyatiya" aria-expanded="false" aria-controls="pagesCollapseMeropriyatiya">
+                            Мероприятия и корпоративы
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseMeropriyatiya" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseNauka" aria-expanded="false" aria-controls="pagesCollapseNauka">
+                            Наука и Инженерия
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseNauka" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Биолог</a>
+                                    <a class="nav-link" href="#">Биофизик</a>
+                                    <a class="nav-link" href="#">Биохимик</a>
+                                    <a class="nav-link" href="#">Геодезист</a>
+                                    <a class="nav-link" href="#">Геолог</a>
+                                    <a class="nav-link" href="#">Инженер</a>
+                                    <a class="nav-link" href="#">Историк</a>
+                                    <a class="nav-link" href="#">Лингвист</a>
+                                    <a class="nav-link" href="#">Микробиолог</a>
+                                    <a class="nav-link" href="#">Физик</a>
+                                    <a class="nav-link" href="#">Филолог</a>
+                                    <a class="nav-link" href="#">Философ</a>
+                                    <a class="nav-link" href="#">Химик</a>
+                                    <a class="nav-link" href="#">Эколог</a>
+                                    <a class="nav-link" href="#">Энтомолог</a>
+                                    <a class="nav-link" href="#">Другая профессия в Науке и Инженерии</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseNedvizhimost" aria-expanded="false" aria-controls="pagesCollapseNedvizhimost">
+                            Недвижимость
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseNedvizhimost" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseOtel" aria-expanded="false" aria-controls="pagesCollapseOtel">
+                            Отель и Гостеприимство
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseOtel" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseOhrana" aria-expanded="false" aria-controls="pagesCollapseOhrana">
+                            Охрана
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseOhrana" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseOchistka" aria-expanded="false" aria-controls="pagesCollapseOchistka">
+                            Очистка и Уборка
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseOchistka" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapsePisha" aria-expanded="false" aria-controls="pagesCollapsePisha">
+                            Пища и Ресторан
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapsePisha" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Бармен</a>
+                                    <a class="nav-link" href="#">Булочник</a>
+                                    <a class="nav-link" href="#">Изготовитель мороженого</a>
+                                    <a class="nav-link" href="#">Квасник</a>
+                                    <a class="nav-link" href="#">Кондитер</a>
+                                    <a class="nav-link" href="#">Мельник</a>
+                                    <a class="nav-link" href="#">Официант</a>
+                                    <a class="nav-link" href="#">Пекарь</a>
+                                    <a class="nav-link" href="#">Переработчик скота и мяса</a>
+                                    <a class="nav-link" href="#">Пивовар</a>
+                                    <a class="nav-link" href="#">Повар</a>
+                                    <a class="nav-link" href="#">Сыровар</a>
+                                    <a class="nav-link" href="#">Хлебопёк</a>
+                                    <a class="nav-link" href="#">Другие профессии пищи и ресторана</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapsePravo" aria-expanded="false" aria-controls="pagesCollapsePravo">
+                            Право
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapsePravo" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Юрисконсульт</a>
+                                    <a class="nav-link" href="#">Юрист</a>
+                                    <a class="nav-link" href="#">Другие профессии права</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseProdazhi" aria-expanded="false" aria-controls="pagesCollapseProdazhi">
+                            Продажи в Розницу и Оптом
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseProdazhi" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Аукционист</a>
+                                    <a class="nav-link" href="#">Бренд-менеджер</a>
+                                    <a class="nav-link" href="#">Дилер</a>
+                                    <a class="nav-link" href="#">Дистрибьютор</a>
+                                    <a class="nav-link" href="#">Кассир</a>
+                                    <a class="nav-link" href="#">Кладовщик</a>
+                                    <a class="nav-link" href="#">Коммерческий директор</a>
+                                    <a class="nav-link" href="#">Логист в сфере торговли</a>
+                                    <a class="nav-link" href="#">Маклер биржевой</a>
+                                    <a class="nav-link" href="#">Маркетолог</a>
+                                    <a class="nav-link" href="#">Менеджер по продажам</a>
+                                    <a class="nav-link" href="#">Продавец</a>
+                                    <a class="nav-link" href="#">Продавец-консультант</a>
+                                    <a class="nav-link" href="#">Снабженец</a>
+                                    <a class="nav-link" href="#">Супервайзер</a>
+                                    <a class="nav-link" href="#">Товаровед</a>
+                                    <a class="nav-link" href="#">Торговый агент</a>
+                                    <a class="nav-link" href="#">Торговый представитель</a>
+                                    <a class="nav-link" href="#">Трейдер</a>
+                                    <a class="nav-link" href="#">Экспедитор</a>
+                                    <a class="nav-link" href="#">Другие профессии продаж</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseProizvodstvo" aria-expanded="false" aria-controls="pagesCollapseProizvodstvo">
+                            Производство и Мануфактура
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseProizvodstvo" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Машинист</a>
+                                    <a class="nav-link" href="#">Наладчик оборудования</a>
+                                    <a class="nav-link" href="#">Оператор в производстве металлических изделий</a>
+                                    <a class="nav-link" href="#">Сварщик</a>
+                                    <a class="nav-link" href="#">Слесарь</a>
+                                    <a class="nav-link" href="#">Токарь-универсал</a>
+                                    <a class="nav-link" href="#">Фрезеровщик-универсал</a>
+                                    <a class="nav-link" href="#">Часовщик-ремонтник</a>
+                                    <a class="nav-link" href="#">Чертежник-конструктор</a>
+                                    <a class="nav-link" href="#">Шлифовщик-универсал</a>
+                                    <a class="nav-link" href="#">Электромеханик</a>
+                                    <a class="nav-link" href="#">Электромонтер</a>
+                                    <a class="nav-link" href="#">Другие профессии машиностроения</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapsePuteshestviya" aria-expanded="false" aria-controls="pagesCollapsePuteshestviya">
+                            Путешествия и Туризм
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapsePuteshestviya" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseRemont" aria-expanded="false" aria-controls="pagesCollapseRemont">
+                            Ремонт и Перестройка Помещений
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseRemont" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Дизайнер</a>
+                                    <a class="nav-link" href="#">Маляр</a>
+                                    <a class="nav-link" href="#">Мастер отделочных строительных работ</a>
+                                    <a class="nav-link" href="#">Штукатур</a>
+                                    <a class="nav-link" href="#">Другие профессии Ремонта и Перестройки Помещений</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseSalony" aria-expanded="false" aria-controls="pagesCollapseSalony">
+                            Салоны, Спа и Фитнес
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseSalony" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseStroitelstvo" aria-expanded="false" aria-controls="pagesCollapseStroitelstvo">
+                            Строительство
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseStroitelstvo" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Бульдозерист</a>
+                                    <a class="nav-link" href="#">Дизайнер-конструктор</a>
+                                    <a class="nav-link" href="#">Землекоп</a>
+                                    <a class="nav-link" href="#">Изготовитель железобетонных изделий</a>
+                                    <a class="nav-link" href="#">Крановщик</a>
+                                    <a class="nav-link" href="#">Кровельщик</a>
+                                    <a class="nav-link" href="#">Маляр</a>
+                                    <a class="nav-link" href="#">Мастер отделочных строительных работ</a>
+                                    <a class="nav-link" href="#">Мастер столярно-плотничных и паркетных работ</a>
+                                    <a class="nav-link" href="#">Монтажник радиоэлектронной аппаратуры и приборов</a>
+                                    <a class="nav-link" href="#">Монтажник санитарно-технических, вентиляционных систем и оборудования</a>
+                                    <a class="nav-link" href="#">Монтажник трубопроводов</a>
+                                    <a class="nav-link" href="#">Печник</a>
+                                    <a class="nav-link" href="#">Плиточник</a>
+                                    <a class="nav-link" href="#">Плотник</a>
+                                    <a class="nav-link" href="#">Сварщик</a>
+                                    <a class="nav-link" href="#">Слесарь</a>
+                                    <a class="nav-link" href="#">Столяр</a>
+                                    <a class="nav-link" href="#">Штукатур</a>
+                                    <a class="nav-link" href="#">Электромонтажник по сигнализации, централизации и блокировке</a>
+                                    <a class="nav-link" href="#">Электромонтажник по силовым сетям и электрооборудованию</a>
+                                    <a class="nav-link" href="#">Электромонтажник по электрическим машинам</a>
+                                    <a class="nav-link" href="#">Электромонтажник электрических сетей и электрооборудования</a>
+                                    <a class="nav-link" href="#">Электромонтажник-наладчик</a>
+                                    <a class="nav-link" href="#">Другие профессии строительства</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseTvorchestvo" aria-expanded="false" aria-controls="pagesCollapseTvorchestvo">
+                            Творческие профессии
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseTvorchestvo" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Актёр</a>
+                                    <a class="nav-link" href="#">Архитектор</a>
+                                    <a class="nav-link" href="#">Визажист</a>
+                                    <a class="nav-link" href="#">Вокалист</a>
+                                    <a class="nav-link" href="#">Геймдизайнер</a>
+                                    <a class="nav-link" href="#">Гитарист</a>
+                                    <a class="nav-link" href="#">Гример</a>
+                                    <a class="nav-link" href="#">Декоратор</a>
+                                    <a class="nav-link" href="#">Диджей</a>
+                                    <a class="nav-link" href="#">Дизайнер</a>
+                                    <a class="nav-link" href="#">Дизайнер рекламы</a>
+                                    <a class="nav-link" href="#">Дирижёр</a>
+                                    <a class="nav-link" href="#">Журналист</a>
+                                    <a class="nav-link" href="#">Задумщик</a>
+                                    <a class="nav-link" href="#">Звукорежиссёр</a>
+                                    <a class="nav-link" href="#">Златокузнец</a>
+                                    <a class="nav-link" href="#">Изобретатель</a>
+                                    <a class="nav-link" href="#">Иллюстратор</a>
+                                    <a class="nav-link" href="#">Имиджмейкер</a>
+                                    <a class="nav-link" href="#">Инженер</a>
+                                    <a class="nav-link" href="#">Искусствовед</a>
+                                    <a class="nav-link" href="#">Кинооператор</a>
+                                    <a class="nav-link" href="#">Кинорежиссер</a>
+                                    <a class="nav-link" href="#">Композитор</a>
+                                    <a class="nav-link" href="#">Кондитер</a>
+                                    <a class="nav-link" href="#">Критик</a>
+                                    <a class="nav-link" href="#">Ландшафтный дизайн</a>
+                                    <a class="nav-link" href="#">Манекенщица</a>
+                                    <a class="nav-link" href="#">Мастер маникюра</a>
+                                    <a class="nav-link" href="#">Мастер педикюра</a>
+                                    <a class="nav-link" href="#">Модель</a>
+                                    <a class="nav-link" href="#">Модельер</a>
+                                    <a class="nav-link" href="#">Музыкант</a>
+                                    <a class="nav-link" href="#">Парикмахер</a>
+                                    <a class="nav-link" href="#">Парфюмер</a>
+                                    <a class="nav-link" href="#">Писатель</a>
+                                    <a class="nav-link" href="#">Повар</a>
+                                    <a class="nav-link" href="#">Постановщик трюков</a>
+                                    <a class="nav-link" href="#">Поэт</a>
+                                    <a class="nav-link" href="#">Программист</a>
+                                    <a class="nav-link" href="#">Продюсер</a>
+                                    <a class="nav-link" href="#">Режиссёр</a>
+                                    <a class="nav-link" href="#">Реставратор</a>
+                                    <a class="nav-link" href="#">Скульптор</a>
+                                    <a class="nav-link" href="#">Стилист</a>
+                                    <a class="nav-link" href="#">Сценарист</a>
+                                    <a class="nav-link" href="#">Танцор</a>
+                                    <a class="nav-link" href="#">Татуировщик</a>
+                                    <a class="nav-link" href="#">Флорист</a>
+                                    <a class="nav-link" href="#">Фотограф</a>
+                                    <a class="nav-link" href="#">Фотомодель</a>
+                                    <a class="nav-link" href="#">Хореограф</a>
+                                    <a class="nav-link" href="#">Художник</a>
+                                    <a class="nav-link" href="#">Художник по свету</a>
+                                    <a class="nav-link" href="#">Ювелир</a>
+                                    <a class="nav-link" href="#">Другие творческие профессии</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseTransport" aria-expanded="false" aria-controls="pagesCollapseTransport">
+                            Транспорт
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseTransport" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                            <a class="nav-link" href="#">Водитель</a>
+                                    <a class="nav-link" href="#">Диспетчер</a>
+                                    <a class="nav-link" href="#">Логистика и грузоперевозки</a>
+                                    <a class="nav-link" href="#">Слесарь-механик</a>
+                                    <a class="nav-link" href="#">Таксист</a>
+                                    <a class="nav-link" href="#">Экспедитор на дальних поездкахник</a>
+                                    <a class="nav-link" href="#">Другие профессии транспорта и грузоперевозок</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseUroki" aria-expanded="false" aria-controls="pagesCollapseUroki">
+                            Уроки и Обучение 
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseUroki" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Библиотекарь</a>
+                                    <a class="nav-link" href="#">Воспитатель</a>
+                                    <a class="nav-link" href="#">Педагог</a>
+                                    <a class="nav-link" href="#">Няня</a>
+                                    <a class="nav-link" href="#">Преподаватель</a>
+                                    <a class="nav-link" href="#">Учитель</a>
+                                    <a class="nav-link" href="#">Другие профессии Обучения</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseUstanovka" aria-expanded="false" aria-controls="pagesCollapseUstanovka">
+                            Установка Оборудования и Техническое Обслуживание 
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseUstanovka" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="#">Автомеханик</a>
+                                    <a class="nav-link" href="#">Автослесарь</a>
+                                    <a class="nav-link" href="#">Автоэлектрик</a>
+                                    <a class="nav-link" href="#">Кузнец</a>
+                                    <a class="nav-link" href="#">Механик</a>
+                                    <a class="nav-link" href="#">Радиомеханик</a>
+                                    <a class="nav-link" href="#">Сантехник</a>
+                                    <a class="nav-link" href="#">Слесарь</a>
+                                    <a class="nav-link" href="#">Техник</a>
+                                    <a class="nav-link" href="#">Токарь</a>
+                                    <a class="nav-link" href="#">Швея</a>
+                                    <a class="nav-link" href="#">Электрик</a>
+                                    <a class="nav-link" href="#">Другие профессии технического обслуживания</a>
+                                        </nav>
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseUhodVzroslye" aria-expanded="false" aria-controls="pagesCollapseUhodVzroslye">
+                            Уход за Взрослыми
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseUhodVzroslye" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseUhodDeti" aria-expanded="false" aria-controls="pagesCollapseUhodDeti">
+                            Уход за Детьми
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseUhodDeti" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+                        
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseUhodZhiv" aria-expanded="false" aria-controls="pagesCollapseUhodZhiv">
+                            Уход за Животными
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                                    <div class="collapse" id="pagesCollapseUhodZhiv" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
+                                        
+                                    </div>
+            
+                    </nav>
+                </div>
+                            
+           
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                    <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                        Страницы
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                            
+                <div class="collapse" id="collapsePages" aria-labelledby="headingThree" data-parent="#sidenavAccordion">
+                    <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                            Логин
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
                                             <a class="nav-link" href="login.html">Логин</a>
-                                            <a class="nav-link" href="register.html">Регистрация</a>
+                                            <a class="nav-link" href="register.html">Создать аккаунт</a>
                                             <a class="nav-link" href="password.html">Восстановить пароль</a>
                                         </nav>
                                     </div>
-                                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
-                                        Error
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
+                        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                            Error
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
                                     <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
                                             <a class="nav-link" href="401.html">401 Page</a>
@@ -391,34 +812,28 @@
                                             <a class="nav-link" href="500.html">500 Page</a>
                                         </nav>
                                     </div>
-                                </nav>
-                            </div>
+                    </nav>
+                </div>
 
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
-                        <div class="small">Logged in as:</div>
-                        Start Bootstrap
+                        <div class="small">Логин как пользователь:</div>
+                        Кладезь
                     </div>
                 </nav>
             </div>
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Sidenav Light</h1>
+                        <h1 class="mt-2">Добро пожаловать!</h1>
                         <ol class="breadcrumb mb-4">
-                            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                            <li class="breadcrumb-item active">Sidenav Light</li>
+                            <li class="breadcrumb-item"><a href="index.html">Кладезь</a></li>
+                            <li class="breadcrumb-item active">Главная страница</li>
                         </ol>
                         <div class="card mb-4">
                             <div class="card-body">
-                                This page is an example of using the light side navigation option. By appending the
-                                <code>.sb-sidenav-light</code>
-                                class to the
-                                <code>.sb-sidenav</code>
-                                class, the side navigation will take on a light color scheme. The
-                                <code>.sb-sidenav-dark</code>
-                                is also available for a darker option.
+                                Текст главной страницы
                             </div>
                         </div>
                     </div>
@@ -426,11 +841,11 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2020</div>
+                            <div class="text-muted">Права &copy; Кладезь 2020</div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <a href="#">Соблюдение прав на охрану частной информации</a>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a href="#">Условия пользования</a>
                             </div>
                         </div>
                     </div>
