@@ -13,17 +13,27 @@
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Кладезь</a>
-            <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+            <!-- <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button> -->
             <!-- Navbar Search-->
-            <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+            <!-- <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
                 <div class="input-group">
                     <input class="form-control" type="text" placeholder="Введите поисковое слово..." aria-label="Search" aria-describedby="basic-addon2" />
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
-            </form>
+            </form> -->
+            
+            
+            
+            
+            
+            
             <!-- Navbar-->
+            
+            <a class="nav-link" id="UserLogin" href="login.html" role="button" ><i class="fas fa-user"></i> Вход</a>          
+            
+            <!--
             <ul class="navbar-nav ml-auto ml-md-0">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
@@ -34,19 +44,20 @@
                         <a class="dropdown-item" href="login.html">Выход</a>
                     </div>
                 </li>
-            </ul>
+            </ul>  -->
         </nav>
         <div id="layoutSidenav">
             <div id="layoutSidenav_nav">
                 <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-
+<!-- -->
                             <div class="sb-sidenav-menu-heading">Категории</div>
+                            
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseAvto" aria-expanded="false" aria-controls="collapseAvto">
-                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>  
                                 Авто и Транспорт
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                <div class="sb-sidenav-collapse-arrow"></div> 
                             </a>
                             <div class="collapse" id="collapseAvto" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                                 <!--sb-sidenav-menu-nested -->
@@ -817,26 +828,46 @@
 
                         </div>
                     </div>
-                    <div class="sb-sidenav-footer">
+                    <!-- <div class="sb-sidenav-footer">
                         <div class="small">Логин как пользователь:</div>
                         Кладезь
-                    </div>
+                    </div> -->
                 </nav>
             </div>
             <div id="layoutSidenav_content">
                 <main>
-                    <div class="container-fluid">
-                        <h1 class="mt-2">Добро пожаловать!</h1>
+                                    
+                    
+                    <div class="container-fluid col-md-8 offset-md-2">
+                        <h1 class="mt-2 w-50 mx-auto">Добро пожаловать!</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item"><a href="index.html">Кладезь</a></li>
                             <li class="breadcrumb-item active">Главная страница</li>
                         </ol>
                         <div class="card mb-4">
                             <div class="card-body">
-                                Текст главной страницы
+                                Здесь вы можете найти то, что вам нужно в разделе Потребности и опубликовать то, что у вас есть для других, в разделе Возможности
                             </div>
                         </div>
+                        
+            <!-- Search-->
+            <form class="form-inline">
+                <div class="form-group form-group-lg mb-2">
+                    <input class="form-control  form-control-lg input-lg" id="inputlg" type="text" placeholder="Введите поисковое слово..." aria-label="Search" aria-describedby="basic-addon2" />
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
                     </div>
+                </div>
+            </form>
+                        
+                    
+                        
+                        
+                    </div>
+                    
+                
+                    
+                    
                 </main>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">

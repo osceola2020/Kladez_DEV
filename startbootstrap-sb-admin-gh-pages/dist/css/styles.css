@@ -10,6 +10,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/*! */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10155,7 +10156,7 @@ body {
 }
 .sb-sidenav .sb-sidenav-menu .nav {
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
   padding: 1.75rem 1rem 0.75rem;
